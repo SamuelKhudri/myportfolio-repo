@@ -15,11 +15,14 @@ font-weight: 700;
 h3{
     font-family: 'Lobster', cursive;
     font-family: 'Nunito', sans-serif;color:black;
+    color:#08e608f1;
+    font-weight: 700;
  }
  .sec1
  {
      display:flex;background-repeat: no-repeat;
      background-image: url(images/bannar.png);
+     margin-bottom: 100px;
  }
  .div1
  {
@@ -27,10 +30,22 @@ h3{
  }
  .div1 img
  {
-  width:82%;height:85%;
+  width:80%;height:85%;
  }
+ .div2{
+    width:50%;padding:5px 40px;  
+ }
+ .div2 img
+ {width:80%;height:85%;}
+
  button{
      color:white;background-color:#3030e6;font-weight:400px;
      border-inline-color:black;border-radius:5px;padding:5px 10px;
  }
  body{margin: 0%;}
+ .sec2
+ {
+    display:flex;background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+    background-position: right;   
+ }
